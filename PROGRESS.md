@@ -1,42 +1,87 @@
 # Decompilation progress
 
-This page provides a rough, human-readable estimate of project progress. The
-figures are updated as milestones are completed; they are not automatically
-derived from line counts.
+This page provides a transparent, milestone-based estimate of project progress.
+The figures are updated when meaningful work is completed; they are not
+automatically derived from line counts or repository size.
 
 ## Current overall estimate
 
-**0%**
+**1%**
 
-## Milestones
+`[##------------------] 1%`
 
-| Area | Progress | Notes |
-| --- | ---: | --- |
-| Repository and build setup | 10% | Repository structure and exclusion rules are in place |
-| PS2 executable analysis | 0% | Entry points and memory layout still need to be documented |
-| Function identification and matching | 0% | No verified function matches recorded yet |
-| Data and asset format research | 0% | Formats and loaders still need to be catalogued |
-| Recompilation/runtime support | 0% | No project-specific runtime implementation yet |
-| Automated tests and validation | 0% | Test strategy and fixtures still need to be established |
-| Documentation and reproducibility | 5% | Initial project documentation exists |
+The overall estimate is a weighted score. Early repository setup is useful
+foundation work, but it represents only a small part of the complete
+decompilation and recompilation effort.
+
+## Progress dashboard
+
+| Area | Weight | Progress | Weighted result | Status |
+| --- | ---: | ---: | ---: | --- |
+| Repository and build setup | 10% | 10% | 1.0% | Complete |
+| PS2 executable analysis | 20% | 0% | 0.0% | Not started |
+| Function identification and matching | 25% | 0% | 0.0% | Not started |
+| Data and asset format research | 15% | 0% | 0.0% | Not started |
+| Recompilation/runtime support | 15% | 0% | 0.0% | Not started |
+| Automated tests and validation | 10% | 0% | 0.0% | Not started |
+| Documentation and reproducibility | 5% | 5% | 0.3% | In progress |
+| **Total** | **100%** | — | **1.3% -> 1%** | **Early setup** |
+
+## Work breakdown
+
+### Completed
+
+- Created the public repository structure and project documentation.
+- Added Git safeguards for ROMs, disc images, archives, generated files, and
+  local secrets.
+- Added the MIT license for original project code and documentation.
+
+### In progress
+
+- Organizing the PS2 recompilation tools and research workflow.
+- Defining the executable analysis and matching strategy.
+
+### Next milestones
+
+1. Record the target executable format, entry point, sections, and memory map.
+2. Establish a reproducible local analysis workflow using legally obtained
+   game files without committing those files.
+3. Add the first verified function or data-format match.
+4. Add a small validation fixture or repeatable analysis test.
+
+## Percentage definitions
+
+| Range | Meaning |
+| ---: | --- |
+| 0% | No verified work in the area |
+| 1-24% | Setup, research, or initial discoveries |
+| 25-49% | Core implementation or matching is underway |
+| 50-74% | Most major components exist and are being integrated |
+| 75-99% | Stabilization, compatibility, and validation remain |
+| 100% | The defined milestone is complete and documented |
 
 ## How percentages are used
 
-Progress is based on meaningful, reviewable milestones rather than the number
-of files or lines committed. A percentage may stay unchanged for several
-commits while difficult reverse-engineering work is being investigated.
+Each area's contribution is calculated as:
+
+`area weight x area progress / 100`
+
+The displayed overall percentage is rounded down to avoid overstating progress.
+Percentages should increase only when there is reviewable evidence, such as a
+documented discovery, a verified match, a passing test, or an integrated
+runtime feature.
 
 When updating this file:
 
 1. Adjust the relevant area.
-2. Recalculate the overall estimate conservatively.
-3. Add a short note describing the evidence for the change.
-4. Commit the code and progress update together when they belong to the same
+2. Recalculate each weighted result and the overall estimate conservatively.
+3. Update the completed, in-progress, and next-milestone sections.
+4. Add a short changelog note describing the evidence for the change.
+5. Commit the code and progress update together when they belong to the same
    milestone.
 
 ## Changelog
 
 | Date | Overall | Update |
 | --- | ---: | --- |
-| 2026-09-15 | 0% | Created the repository documentation and safe Git layout |
-
+| 2026-09-15 | 1% | Added weighted progress tracking and documented the initial setup milestone |
