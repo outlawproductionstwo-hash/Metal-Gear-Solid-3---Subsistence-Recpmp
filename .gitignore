@@ -1,0 +1,40 @@
+# Original game media and disc images
+The Game i want to Decompile/
+*.iso
+*.bin
+*.img
+*.cue
+*.chd
+*.elf
+*.isz
+*.zip
+*.7z
+*.rar
+
+# Generated build and analysis output
+build/
+dist/
+out/
+output/
+release/
+target/
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.map
+
+# Tool and IDE state
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+
