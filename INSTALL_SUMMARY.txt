@@ -1,0 +1,16 @@
+Installation guidance for PS2 decompilation dependencies has been created.
+
+Files created/updated:
+- INSTALL.md: Step-by-step installation instructions for Windows (focus on absolute requirements: Visual Studio Build Tools 2022, CMake, Java JDK 21+, Python, Git, Ghidra with PS2 extension)
+- PROGRESS.md: Updated to reflect progress in documentation (added installation guide) and increased overall estimate to 3%
+
+The INSTALL.md file provides:
+1. Prerequisites (absolute requirements) for Windows
+2. Optional platform-specific dependencies (VitaSDK, Android NDK/SDK)
+3. Environment setup steps using the provided workbench scripts
+4. Build verification steps
+5. Troubleshooting tips for common issues
+
+You can find the installation guide at: C:\Users\dariu\Desktop\MGS 3 decomp\INSTALL.md
+
+Co-Authored-By: Claude Code <noreply@anthropic.com>

@@ -6,16 +6,20 @@ This document provides step-by-step instructions for setting up the PS2 decompil
 
 The following must be installed manually:
 
-1. **Visual Studio Build Tools 2022** (with C++ workload)
-   - Download from: https://visualstudio.microsoft.com/downloads/
-   - Select "Build Tools for Visual Studio 2022" → Individual components → Ensure "MSVC v143 - VS 2022 C++ x64/x86 build tools" and "Windows 10 SDK" are selected.
+1. **C++ Compiler** (either):
+   - **Option A: Visual Studio Build Tools 2022** (with C++ workload)
+     - Download from: https://visualstudio.microsoft.com/downloads/
+     - Select "Build Tools for Visual Studio 2022" → Individual components → Ensure "MSVC v143 - VS 2022 C++ x64/x86 build tools" and "Windows 10 SDK" are selected.
+   - **Option B: GCC compiler** (via MinGW-W64 or similar)
+     - The user already has `gcc.exe` from MinGW-W64 installed (verified). This can be used as an alternative to MSVC for building PS2Recomp and related tools.
+     - If you prefer to use MSVC, follow Option A instructions above.
 
 2. **CMake** (version 3.21+ recommended)
    - Download from: https://cmake.org/download/
    - Install and ensure it's added to PATH.
 
 3. **Java JDK** (version 21+ for Ghidra)
-   - Download Temurin JDK 21 from: https://adoptium.net/temurin21/
+   - Download from: https://adoptium.net/temurin21/
    - Install and note the installation path (e.g., `C:\Program Files\Eclipse Temurin\jdk-21.0.2+13`).
    - The scripts will set `JAVA_HOME` per process, but having it in PATH is helpful.
 
@@ -96,7 +100,9 @@ cmake --version
 java -version
 python --version
 git --version
-cl  // Should show MSVC version if Build Tools installed correctly
+rem Check C++ compiler (either MSVC or GCC)
+cl   // Shows MSVC version if using Visual Studio Build Tools
+gcc --version   // Shows GCC version if using MinGW
 ```
 
 ### 7. (Optional) Install Rust Toolchain for Analysis Tools
@@ -123,8 +129,9 @@ python --version
 :: Check Git
 git --version
 
-:: Check Compiler (MSVC)
-cl
+:: Check Compiler (MSVC or GCC)
+cl   // MSVC
+gcc --version   // GCC
 
 :: Check that FetchContent will work (Git should be available)
 git --version
