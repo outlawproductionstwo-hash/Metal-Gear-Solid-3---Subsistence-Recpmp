@@ -1,6 +1,6 @@
 # Metal Gear Solid 3 - Subsistence Recomp
 
-[![Default branch](https://img.shields.io/github/branch-name/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp?branch=master)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/tree/master)
+[![Default branch](https://img.shields.io/badge/default%20branch-master-2ea44f)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/tree/master)
 [![License](https://img.shields.io/github/license/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/master)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/commits/master)
 [![Repository size](https://img.shields.io/github/repo-size/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)
