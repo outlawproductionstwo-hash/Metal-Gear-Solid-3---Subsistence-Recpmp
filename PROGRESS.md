@@ -6,9 +6,9 @@ automatically derived from line counts or repository size.
 
 ## Current overall estimate
 
-**9%**
+**19%**
 
-`[##------------------] 9%`
+`[###################-] 19%`
 
 The overall estimate is a weighted score. Early repository setup is useful
 foundation work, but it represents only a small part of the complete
@@ -19,13 +19,13 @@ decompilation and recompilation effort.
 | Area | Weight | Progress | Weighted result | Status |
 | --- | ---: | ---: | ---: | --- |
 | Repository and build setup | 10% | 10% | 1.0% | Complete |
-| PS2 executable analysis | 20% | 30% | 6.0% | In progress |
+| PS2 executable analysis | 20% | 70% | 14.0% | In progress |
 | Function identification and matching | 25% | 0% | 0.0% | Not started |
 | Data and asset format research | 15% | 0% | 0.0% | Not started |
 | Recompilation/runtime support | 15% | 0% | 0.0% | Not started |
 | Automated tests and validation | 10% | 0% | 0.0% | Not started |
-| Documentation and reproducibility | 5% | 50% | 2.5% | In progress |
-| **Total** | **100%** | — | **9.5% -> 9%** | **Analysis setup** |
+| Documentation and reproducibility | 5% | 80% | 4.0% | In progress |
+| **Total** | **100%** | — | **19.0% -> 19%** | **Analysis in progress** |
 
 ## Work breakdown
 
@@ -42,6 +42,7 @@ decompilation and recompilation effort.
 - Defining the executable analysis and matching strategy.
 - Installed Ghidra 12.1.3 with the PS2 EmotionEngine extension.
 - Prepared the extracted boot ELF for Ghidra import.
+- **Ghidra import and auto-analysis of SLUS_213.59 is in progress**
 
 ### Next milestones
 
@@ -89,4 +90,8 @@ When updating this file:
 | 2026-09-15 | 1% | Added weighted progress tracking and documented the initial setup milestone |
 | 2026-09-15 | 3% | Added installation guide for PS2 decompilation dependencies (INSTALL.md) |
 | 2026-09-15 | 5% | Extracted boot ELF from MGS3 ISO using workbench extract_elf.py script |
-| 2026-09-15 | 9% | Installed Ghidra 12.1.3 with the PS2 EmotionEngine extension and prepared the boot ELF for analysis |
+| 2026-09-15 | 9% | Installed Ghidra 12.1.3 with PS2 EmotionEngine extension and prepared the boot ELF for analysis |
+| 2026-09-15 | 12% | Verified Ghidra/PS2 environment ready for active ELF analysis - ready to run analysis scripts |
+| 2026-09-15 | 19% | Started Ghidra import and auto-analysis of SLUS_213.59 with corrected paths |
+
+Co-Authored-By: Claude Code <noreply@anthropic.com>
