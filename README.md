@@ -9,6 +9,13 @@ An independent research and reverse-engineering project focused on decompiling
 and recompiling **Metal Gear Solid 3: Subsistence** for educational,
 preservation, and interoperability purposes.
 
+## Development assistance
+
+This project uses **Claude** and **GitHub Copilot** as development assistants
+for repository organization, documentation, research support, tooling, and
+code-generation tasks. All project direction, technical decisions, review, and
+published changes are managed by the project owner.
+
 The project name follows the target game and the recompilation goal:
 
 - **Metal Gear Solid 3 - Subsistence** is the game being studied.
