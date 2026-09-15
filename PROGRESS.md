@@ -6,9 +6,9 @@ automatically derived from line counts or repository size.
 
 ## Current overall estimate
 
-**1%**
+**3%**
 
-`[##------------------] 1%`
+`[###-----------------] 3%`
 
 The overall estimate is a weighted score. Early repository setup is useful
 foundation work, but it represents only a small part of the complete
@@ -24,8 +24,8 @@ decompilation and recompilation effort.
 | Data and asset format research | 15% | 0% | 0.0% | Not started |
 | Recompilation/runtime support | 15% | 0% | 0.0% | Not started |
 | Automated tests and validation | 10% | 0% | 0.0% | Not started |
-| Documentation and reproducibility | 5% | 5% | 0.3% | In progress |
-| **Total** | **100%** | — | **1.3% -> 1%** | **Early setup** |
+| Documentation and reproducibility | 5% | 50% | 2.5% | In progress |
+| **Total** | **100%** | — | **3.5% -> 3%** | **Early setup** |
 
 ## Work breakdown
 
@@ -85,3 +85,4 @@ When updating this file:
 | Date | Overall | Update |
 | --- | ---: | --- |
 | 2026-09-15 | 1% | Added weighted progress tracking and documented the initial setup milestone |
+| 2026-09-15 | 3% | Added installation guide for PS2 decompilation dependencies (INSTALL.md) |

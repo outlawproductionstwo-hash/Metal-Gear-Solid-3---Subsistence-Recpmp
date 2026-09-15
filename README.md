@@ -24,9 +24,9 @@ The project name follows the target game and the recompilation goal:
 
 ## Project status
 
-**Overall progress: 1% — project setup and research phase**
+**Overall progress: 3% — project setup and research phase**
 
-`[##------------------] 1%`
+`[###-----------------] 3%`
 
 | Area | Progress | Status |
 | --- | ---: | --- |
