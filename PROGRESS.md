@@ -24,8 +24,8 @@ decompilation and recompilation effort.
 | Data and asset format research | 15% | 0% | 0.0% | Not started |
 | Recompilation/runtime support | 15% | 0% | 0.0% | Not started |
 | Automated tests and validation | 10% | 0% | 0.0% | Not started |
-| Documentation and reproducibility | 5% | 80% | 4.0% | In progress |
-| **Total** | **100%** | — | **19.0% -> 19%** | **Analysis in progress** |
+| Documentation and reproducibility | 5% | 85% | 4.25% | In progress |
+| **Total** | **100%** | — | **19.25% -> 19%** | **Analysis in progress** |
 
 ## Work breakdown
 
@@ -35,6 +35,8 @@ decompilation and recompilation effort.
 - Added Git safeguards for ROMs, disc images, archives, generated files, and
   local secrets.
 - Added the MIT license for original project code and documentation.
+- Added dependency/toolchain mapping and installation guidance.
+- Added initial Rust utilities for ELF and string analysis.
 
 ### In progress
 
@@ -88,6 +90,7 @@ When updating this file:
 | Date | Overall | Update |
 | --- | ---: | --- |
 | 2026-09-15 | 1% | Added weighted progress tracking and documented the initial setup milestone |
+| 2026-09-15 | 19% | Added reproducible toolchain documentation and initial Rust analysis utilities; overall remains conservatively rounded to 19% |
 | 2026-09-15 | 3% | Added installation guide for PS2 decompilation dependencies (INSTALL.md) |
 | 2026-09-15 | 5% | Extracted boot ELF from MGS3 ISO using workbench extract_elf.py script |
 | 2026-09-15 | 9% | Installed Ghidra 12.1.3 with PS2 EmotionEngine extension and prepared the boot ELF for analysis |

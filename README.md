@@ -36,7 +36,7 @@ The project name follows the target game and the recompilation goal:
 | Data and asset format research | 0% | Not started |
 | Recompilation/runtime support | 0% | Not started |
 | Automated tests and validation | 0% | Not started |
-| Documentation and reproducibility | 80% | In progress |
+| Documentation and reproducibility | 85% | In progress |
 
 See the full weighted calculation, completed work, and next milestones in
 [`PROGRESS.md`](PROGRESS.md). Percentages are estimates for visibility and are
