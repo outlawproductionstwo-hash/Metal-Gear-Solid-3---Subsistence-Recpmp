@@ -12,11 +12,23 @@ The project name follows the target game and the recompilation goal:
 
 ## Project status
 
-**Overall progress: 0% — project setup and research phase**
+**Overall progress: 1% — project setup and research phase**
 
-Progress is tracked in [`PROGRESS.md`](PROGRESS.md). Percentages are estimates
-for visibility and will be updated as code is analyzed, matched, tested, and
-documented. They are not a measurement of game completion or compatibility.
+`[##------------------] 1%`
+
+| Area | Progress | Status |
+| --- | ---: | --- |
+| Repository and build setup | 10% | Complete |
+| PS2 executable analysis | 0% | Not started |
+| Function identification and matching | 0% | Not started |
+| Data and asset format research | 0% | Not started |
+| Recompilation/runtime support | 0% | Not started |
+| Automated tests and validation | 0% | Not started |
+| Documentation and reproducibility | 5% | In progress |
+
+See the full weighted calculation, completed work, and next milestones in
+[`PROGRESS.md`](PROGRESS.md). Percentages are estimates for visibility and are
+not a measurement of game completion or compatibility.
 
 ## Scope
 
