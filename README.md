@@ -5,9 +5,9 @@
 [![Last commit](https://img.shields.io/github/last-commit/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/master)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/commits/master)
 [![Repository size](https://img.shields.io/github/repo-size/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)
 
-An independent research and reverse-engineering project for **MGS3 —
-Metal Gear Solid 3: Subsistence**. The project focuses on decompilation and
-recompilation for educational, preservation, and interoperability purposes.
+An independent research and reverse-engineering project for **Metal Gear Solid
+3: Subsistence (MGS3)**. The project focuses on decompilation and recompilation
+for educational, preservation, and interoperability purposes.
 
 ## Development assistance
 
