@@ -55,3 +55,7 @@ This is a non-commercial research project. Metal Gear Solid 3 and Subsistence
 are trademarks and copyrighted works of their respective rights holders. This
 repository does not distribute the original game or its copyrighted assets.
 
+The original project code and documentation in this repository are licensed
+under the [MIT License](LICENSE). The MIT License does not apply to the game,
+ROMs, copyrighted assets, third-party tools, or other materials that are not
+original work by this project.
