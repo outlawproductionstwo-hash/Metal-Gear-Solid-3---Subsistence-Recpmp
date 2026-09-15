@@ -1,5 +1,10 @@
 # Metal Gear Solid 3 - Subsistence Recomp
 
+[![Default branch](https://img.shields.io/github/branch-name/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp?branch=master)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/tree/master)
+[![License](https://img.shields.io/github/license/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/master)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp/commits/master)
+[![Repository size](https://img.shields.io/github/repo-size/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)](https://github.com/outlawproductionstwo-hash/Metal-Gear-Solid-3---Subsistence-Recpmp)
+
 An independent research and reverse-engineering project focused on decompiling
 and recompiling **Metal Gear Solid 3: Subsistence** for educational,
 preservation, and interoperability purposes.
@@ -29,6 +34,45 @@ The project name follows the target game and the recompilation goal:
 See the full weighted calculation, completed work, and next milestones in
 [`PROGRESS.md`](PROGRESS.md). Percentages are estimates for visibility and are
 not a measurement of game completion or compatibility.
+
+## Roadmap
+
+The project will advance through these broad stages:
+
+- [x] Create the repository structure and safe contribution rules
+- [x] Add project documentation, progress tracking, and licensing
+- [ ] Document the target executable format and memory layout
+- [ ] Establish a repeatable PS2 analysis workflow
+- [ ] Identify and verify initial functions or data formats
+- [ ] Build the first project-specific recompilation support
+- [ ] Add automated validation for reconstructed behavior
+- [ ] Document reproducible setup and release milestones
+
+## Current focus
+
+The current focus is organizing the analysis workflow and documenting the
+target executable before assigning progress to decompilation or recompilation
+milestones. The percentage is intentionally conservative until there is
+verifiable reverse-engineering evidence.
+
+## Contributing changes
+
+Keep changes small and descriptive:
+
+1. Add source code, scripts, notes, or reproducible documentation.
+2. Do not add original game media, ROMs, copyrighted assets, or downloaded
+   archives.
+3. Update [`PROGRESS.md`](PROGRESS.md) when a measurable milestone changes.
+4. Commit related work together and push it to the `master` branch.
+
+## Repository contents
+
+| Included | Excluded |
+| --- | --- |
+| Original source, tools, notes, and documentation | ROMs and disc images |
+| Rust utilities and reproducible scripts | Copyrighted game assets |
+| Analysis results that can be legally shared | Downloaded tool archives |
+| Progress and project metadata | Generated binaries and local secrets |
 
 ## Scope
 
