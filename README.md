@@ -24,14 +24,14 @@ The project name follows the target game and the recompilation goal:
 
 ## Project status
 
-**Overall progress: 3% — project setup and research phase**
+**Overall progress: 5% — project setup and research phase**
 
-`[###-----------------] 3%`
+`[#####---------------] 5%`
 
 | Area | Progress | Status |
 | --- | ---: | --- |
 | Repository and build setup | 10% | Complete |
-| PS2 executable analysis | 0% | Not started |
+| PS2 executable analysis | 10% | In progress |
 | Function identification and matching | 0% | Not started |
 | Data and asset format research | 0% | Not started |
 | Recompilation/runtime support | 0% | Not started |
