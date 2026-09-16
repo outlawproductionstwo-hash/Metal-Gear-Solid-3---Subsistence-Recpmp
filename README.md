@@ -24,19 +24,19 @@ The project name follows the target game and the recompilation goal:
 
 ## Project status
 
-**Overall progress: 21% — analysis in progress**
+**Overall progress: 22% — analysis in progress**
 
-`[#####################] 21%`
+`[######################] 22%`
 
 | Area | Progress | Status |
 | --- | ---: | --- |
 | Repository and build setup | 10% | Complete |
-| PS2 executable analysis | 75% | In progress |
-| Function identification and matching | 2% | Initial tooling |
+| PS2 executable analysis | 78% | In progress |
+| Function identification and matching | 5% | Parser and sample validation |
 | Data and asset format research | 0% | Not started |
-| Recompilation/runtime support | 3% | Toolchain research |
-| Automated tests and validation | 0% | Not started |
-| Documentation and reproducibility | 85% | In progress |
+| Recompilation/runtime support | 4% | Toolchain research |
+| Automated tests and validation | 2% | Sample validation |
+| Documentation and reproducibility | 90% | In progress |
 
 See the full weighted calculation, completed work, and next milestones in
 [`PROGRESS.md`](PROGRESS.md). Percentages are estimates for visibility and are

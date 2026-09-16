@@ -6,9 +6,9 @@ automatically derived from line counts or repository size.
 
 ## Current overall estimate
 
-**21%**
+**23%**
 
-`[#####################] 21%`
+`[#######################] 23%`
 
 The overall estimate is a weighted score. Early repository setup is useful
 foundation work, but it represents only a small part of the complete
@@ -19,13 +19,13 @@ decompilation and recompilation effort.
 | Area | Weight | Progress | Weighted result | Status |
 | --- | ---: | ---: | ---: | --- |
 | Repository and build setup | 10% | 10% | 1.0% | Complete |
-| PS2 executable analysis | 20% | 75% | 15.0% | In progress |
-| Function identification and matching | 25% | 2% | 0.5% | Initial tooling |
+| PS2 executable analysis | 20% | 78% | 15.6% | In progress |
+| Function identification and matching | 25% | 5% | 1.25% | Parser and sample validation |
 | Data and asset format research | 15% | 0% | 0.0% | Not started |
-| Recompilation/runtime support | 15% | 3% | 0.45% | Toolchain research |
-| Automated tests and validation | 10% | 0% | 0.0% | Not started |
-| Documentation and reproducibility | 5% | 85% | 4.25% | In progress |
-| **Total** | **100%** | — | **21.2% -> 21%** | **Analysis in progress** |
+| Recompilation/runtime support | 15% | 4% | 0.6% | Toolchain research |
+| Automated tests and validation | 10% | 2% | 0.2% | Sample validation |
+| Documentation and reproducibility | 5% | 90% | 4.5% | In progress |
+| **Total** | **100%** | — | **22.15% -> 22%** | **Analysis in progress** |
 
 ## Work breakdown
 
@@ -39,6 +39,8 @@ decompilation and recompilation effort.
 - Added initial Rust utilities for ELF and string analysis.
 - Added an executable function-analysis workflow for processing exported
   analysis input and writing a structured report.
+- Added structured CSV parsing, library-function classification, confidence
+  scoring, and sample validation output to the function analyzer.
 
 ### In progress
 
@@ -47,6 +49,8 @@ decompilation and recompilation effort.
 - Installed Ghidra 12.1.3 with the PS2 EmotionEngine extension.
 - Prepared the extracted boot ELF for Ghidra import.
 - Extending the project-owned function analyzer beyond its initial scaffold.
+- Preparing the workflow for a full, verified Ghidra function export from
+  `SLUS_213.59`.
 - **Ghidra import and auto-analysis of SLUS_213.59 is in progress**
 
 ### Next milestones
@@ -100,5 +104,6 @@ When updating this file:
 | 2026-09-15 | 19% | Started Ghidra import and auto-analysis of SLUS_213.59 with corrected paths |
 | 2026-09-15 | 19% | Added reproducible toolchain documentation and initial Rust analysis utilities |
 | 2026-09-15 | 21% | Added the first executable function-analysis workflow; Ghidra analysis remains in progress |
+| 2026-09-16 | 22% | Added structured function parsing, library detection, confidence scoring, and repeatable sample validation; actual MGS3 matching remains pending |
 
 Co-Authored-By: Claude Code <noreply@anthropic.com>
